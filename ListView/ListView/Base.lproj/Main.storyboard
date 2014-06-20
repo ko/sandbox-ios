@@ -149,10 +149,10 @@
             </objects>
             <point key="canvasLocation" x="1432" y="141"/>
         </scene>
-        <!--View Controller-->
+        <!--Table Cell Detail Scene View Controller - Details-->
         <scene sceneID="uDy-EI-EQv">
             <objects>
-                <viewController id="aL8-Mb-4hH" sceneMemberID="viewController">
+                <viewController id="aL8-Mb-4hH" customClass="TableCellDetailSceneViewController" customModule="ListView" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="xwD-Eq-Ule"/>
                         <viewControllerLayoutGuide type="bottom" id="11V-Ah-BHa"/>
@@ -167,11 +167,48 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Y93-tp-xo4">
+                                <rect key="frame" x="20" y="146" width="440" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wLI-SK-AqS">
+                                <rect key="frame" x="20" y="132" width="98" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2gg-sK-8Ug">
+                                <rect key="frame" x="20" y="161" width="440" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Y93-tp-xo4" firstAttribute="top" secondItem="xwD-Eq-Ule" secondAttribute="bottom" constant="82" id="BEH-xW-bxP"/>
+                            <constraint firstItem="2gg-sK-8Ug" firstAttribute="top" secondItem="wLI-SK-AqS" secondAttribute="bottom" constant="8" id="DHV-OM-XV4"/>
+                            <constraint firstItem="wLI-SK-AqS" firstAttribute="top" secondItem="xwD-Eq-Ule" secondAttribute="bottom" constant="38" id="Uwi-CB-Fx8"/>
+                            <constraint firstAttribute="trailing" secondItem="Y93-tp-xo4" secondAttribute="trailing" constant="20" id="ZSQ-Qh-aFc"/>
+                            <constraint firstItem="wLI-SK-AqS" firstAttribute="leading" secondItem="aN8-af-tkh" secondAttribute="leading" constant="20" id="kVX-uj-TKl"/>
+                            <constraint firstItem="Y93-tp-xo4" firstAttribute="leading" secondItem="aN8-af-tkh" secondAttribute="leading" constant="20" id="kzN-7H-oBF"/>
+                            <constraint firstItem="2gg-sK-8Ug" firstAttribute="leading" secondItem="aN8-af-tkh" secondAttribute="leading" constant="20" id="ycA-ei-Ip8"/>
+                        </constraints>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="ymZ-U3-9lG"/>
+                                <exclude reference="Y93-tp-xo4"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="BEH-xW-bxP"/>
+                                <exclude reference="ZSQ-Qh-aFc"/>
+                                <exclude reference="kzN-7H-oBF"/>
+                            </mask>
+                        </variation>
                     </view>
-                    <navigationItem key="navigationItem" id="YuJ-bY-lmI">
+                    <navigationItem key="navigationItem" title="Details" prompt="Details Prompt" id="YuJ-bY-lmI">
                         <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="L2n-OS-9NK">
                             <connections>
                                 <segue destination="Qwf-57-BDE" kind="unwind" unwindAction="unwindToRootVC:" id="4Y1-w9-3j6"/>
@@ -183,6 +220,9 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="labelName" destination="2gg-sK-8Ug" id="NEm-T6-1RJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jaG-8R-Qgh" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="Qwf-57-BDE" userLabel="Exit" sceneMemberID="exit"/>

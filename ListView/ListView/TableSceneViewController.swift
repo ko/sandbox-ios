@@ -17,6 +17,7 @@ class TableSceneViewController: UIViewController, UITableViewDataSource, UITable
     @IBOutlet var tableCell: UITableViewCell
     
     var items: String[] = ["a"]
+    var selectedName: String = ""
     
     // MARK: UITableViewDataSource
     
@@ -44,6 +45,7 @@ class TableSceneViewController: UIViewController, UITableViewDataSource, UITable
     // MARK: Segue
     
     func tableView(tableView: UITableView!, didSelectRowAtIndexPath indexPath: NSIndexPath!) {
+        selectedName = items[indexPath.row]
         self.performSegueWithIdentifier("TableCellSegue", sender: self)
     }
     
@@ -51,6 +53,12 @@ class TableSceneViewController: UIViewController, UITableViewDataSource, UITable
         switch(segue.identifier!) {
         case "TableCellSegue":
             NSLog(segue.identifier)
+            
+            let dst: UINavigationController = segue.destinationViewController as UINavigationController
+            let dstvc: TableCellDetailSceneViewController = dst.viewControllers[0] as TableCellDetailSceneViewController
+            
+            dstvc.labelNameValue = selectedName
+            
             break
         case "AddItemSegue":
             NSLog(segue.identifier)
