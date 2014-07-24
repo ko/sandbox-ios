@@ -16,3 +16,7 @@ xcuserdata
 DerivedData
 *.xcuserstate
 
+Podfile.lock
+Pods/
+
+.DS_Store
