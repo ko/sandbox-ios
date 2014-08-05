@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		349CE09E53B74FF5A19F7DE4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 940BF0B9883B439D8104D10E /* libPods.a */; };
+		5B003D1A1990C04A00707D09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B003D191990C04A00707D09 /* AppDelegate.swift */; };
+		5B003D1C1990C04A00707D09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B003D1B1990C04A00707D09 /* ViewController.swift */; };
+		5B003D1F1990C04A00707D09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B003D1D1990C04A00707D09 /* Main.storyboard */; };
+		5B003D211990C04A00707D09 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B003D201990C04A00707D09 /* Images.xcassets */; };
+		5B003D2D1990C04B00707D09 /* CropImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B003D2C1990C04B00707D09 /* CropImageTests.swift */; };
+		5B7AC7D81990C0C800F76233 /* empty.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7AC7D71990C0C800F76233 /* empty.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B003D271990C04B00707D09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B003D0C1990C04A00707D09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B003D131990C04A00707D09;
+			remoteInfo = CropImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B003D141990C04A00707D09 /* CropImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CropImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B003D181990C04A00707D09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B003D191990C04A00707D09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5B003D1B1990C04A00707D09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5B003D1E1990C04A00707D09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B003D201990C04A00707D09 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5B003D261990C04B00707D09 /* CropImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CropImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B003D2B1990C04B00707D09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B003D2C1990C04B00707D09 /* CropImageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CropImageTests.swift; sourceTree = "<group>"; };
+		5B7AC7D61990C0C700F76233 /* CropImage-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CropImage-Bridging-Header.h"; sourceTree = "<group>"; };
+		5B7AC7D71990C0C800F76233 /* empty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = empty.m; sourceTree = "<group>"; };
+		940BF0B9883B439D8104D10E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A77E690D52E14467A5912703 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B003D111990C04A00707D09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				349CE09E53B74FF5A19F7DE4 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B003D231990C04B00707D09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B003D0B1990C04A00707D09 = {
+			isa = PBXGroup;
+			children = (
+				5B003D161990C04A00707D09 /* CropImage */,
+				5B003D291990C04B00707D09 /* CropImageTests */,
+				5B003D151990C04A00707D09 /* Products */,
+				A77E690D52E14467A5912703 /* Pods.xcconfig */,
+				7F60DC8634A14B2DA09BB0F8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5B003D151990C04A00707D09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B003D141990C04A00707D09 /* CropImage.app */,
+				5B003D261990C04B00707D09 /* CropImageTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B003D161990C04A00707D09 /* CropImage */ = {
+			isa = PBXGroup;
+			children = (
+				5B003D191990C04A00707D09 /* AppDelegate.swift */,
+				5B003D1B1990C04A00707D09 /* ViewController.swift */,
+				5B003D1D1990C04A00707D09 /* Main.storyboard */,
+				5B003D201990C04A00707D09 /* Images.xcassets */,
+				5B003D171990C04A00707D09 /* Supporting Files */,
+				5B7AC7D71990C0C800F76233 /* empty.m */,
+				5B7AC7D61990C0C700F76233 /* CropImage-Bridging-Header.h */,
+			);
+			path = CropImage;
+			sourceTree = "<group>";
+		};
+		5B003D171990C04A00707D09 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B003D181990C04A00707D09 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B003D291990C04B00707D09 /* CropImageTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B003D2C1990C04B00707D09 /* CropImageTests.swift */,
+				5B003D2A1990C04B00707D09 /* Supporting Files */,
+			);
+			path = CropImageTests;
+			sourceTree = "<group>";
+		};
+		5B003D2A1990C04B00707D09 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B003D2B1990C04B00707D09 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7F60DC8634A14B2DA09BB0F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				940BF0B9883B439D8104D10E /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B003D131990C04A00707D09 /* CropImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B003D301990C04B00707D09 /* Build configuration list for PBXNativeTarget "CropImage" */;
+			buildPhases = (
+				C2AD8229706D4CEFBA20FBD5 /* Check Pods Manifest.lock */,
+				5B003D101990C04A00707D09 /* Sources */,
+				5B003D111990C04A00707D09 /* Frameworks */,
+				5B003D121990C04A00707D09 /* Resources */,
+				138226DF41B84C1DAA01D00D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CropImage;
+			productName = CropImage;
+			productReference = 5B003D141990C04A00707D09 /* CropImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B003D251990C04B00707D09 /* CropImageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B003D331990C04B00707D09 /* Build configuration list for PBXNativeTarget "CropImageTests" */;
+			buildPhases = (
+				5B003D221990C04B00707D09 /* Sources */,
+				5B003D231990C04B00707D09 /* Frameworks */,
+				5B003D241990C04B00707D09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B003D281990C04B00707D09 /* PBXTargetDependency */,
+			);
+			name = CropImageTests;
+			productName = CropImageTests;
+			productReference = 5B003D261990C04B00707D09 /* CropImageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B003D0C1990C04A00707D09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Ken Ko";
+				TargetAttributes = {
+					5B003D131990C04A00707D09 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					5B003D251990C04B00707D09 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 5B003D131990C04A00707D09;
+					};
+				};
+			};
+			buildConfigurationList = 5B003D0F1990C04A00707D09 /* Build configuration list for PBXProject "CropImage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B003D0B1990C04A00707D09;
+			productRefGroup = 5B003D151990C04A00707D09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B003D131990C04A00707D09 /* CropImage */,
+				5B003D251990C04B00707D09 /* CropImageTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B003D121990C04A00707D09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B003D1F1990C04A00707D09 /* Main.storyboard in Resources */,
+				5B003D211990C04A00707D09 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B003D241990C04B00707D09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		138226DF41B84C1DAA01D00D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2AD8229706D4CEFBA20FBD5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B003D101990C04A00707D09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B7AC7D81990C0C800F76233 /* empty.m in Sources */,
+				5B003D1C1990C04A00707D09 /* ViewController.swift in Sources */,
+				5B003D1A1990C04A00707D09 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B003D221990C04B00707D09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B003D2D1990C04B00707D09 /* CropImageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B003D281990C04B00707D09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B003D131990C04A00707D09 /* CropImage */;
+			targetProxy = 5B003D271990C04B00707D09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B003D1D1990C04A00707D09 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B003D1E1990C04A00707D09 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B003D2E1990C04B00707D09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B003D2F1990C04B00707D09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B003D311990C04B00707D09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A77E690D52E14467A5912703 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = CropImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CropImage/CropImage-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5B003D321990C04B00707D09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A77E690D52E14467A5912703 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = CropImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CropImage/CropImage-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		5B003D341990C04B00707D09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CropImage.app/CropImage";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CropImageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		5B003D351990C04B00707D09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CropImage.app/CropImage";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CropImageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B003D0F1990C04A00707D09 /* Build configuration list for PBXProject "CropImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B003D2E1990C04B00707D09 /* Debug */,
+				5B003D2F1990C04B00707D09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B003D301990C04B00707D09 /* Build configuration list for PBXNativeTarget "CropImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B003D311990C04B00707D09 /* Debug */,
+				5B003D321990C04B00707D09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B003D331990C04B00707D09 /* Build configuration list for PBXNativeTarget "CropImageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B003D341990C04B00707D09 /* Debug */,
+				5B003D351990C04B00707D09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B003D0C1990C04A00707D09 /* Project object */;
+}
